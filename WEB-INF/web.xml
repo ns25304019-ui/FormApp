@@ -1,0 +1,29 @@
+   <web-app>
+    <servlet>
+        <servlet-name>inputtest</servlet-name>
+        <jsp-file>/FormInput.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>inputtest</servlet-name>
+        <url-pattern>/inputtest</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>formtest</servlet-name>
+        <servlet-class>FormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>formtest</servlet-name>
+        <url-pattern>/formtest</url-pattern>
+    </servlet-mapping>
+
+    
+    <servlet>
+        <servlet-name>formresult</servlet-name>
+        <jsp-file>/FormResult.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>formresult</servlet-name>
+        <url-pattern>/formresult</url-pattern>
+    </servlet-mapping>
+    </web-app>
